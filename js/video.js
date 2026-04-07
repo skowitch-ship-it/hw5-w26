@@ -57,7 +57,11 @@ document.querySelector("#slider").addEventListener("change", function() {
 
 });
 document.querySelector("#vintage").addEventListener("click", function(){
-	video.classList.add("oldSchool");
-
-
+	video.classList.add("oldSchool")
+});
+document.querySelector("#orig").addEventListener("click", function(){
+	video.classList.remove("oldSchool");
+// Video 'Original' style class not set correctly
+// Current: 73.5
+// ------ video style checked! ------
 });
